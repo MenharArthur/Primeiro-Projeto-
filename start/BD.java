@@ -2,11 +2,11 @@ package start;
 import java.sql.*;
 public class BD {
     public Connection conexao = null;
-    private final String DRIVER = "com.mysql.jdbc.Driver";
-    private final String BDNAME = "jenniffernailsdesigner";
-    private final String URL = "jdbc:mysql://localhost:3306/" + BDNAME;
+    private final String DRIVER = "";
+    private final String BDNAME = "";
+    private final String URL = "" + BDNAME;
     private final String LOGIN = "root";
-    private final String SENHA = "AR!@0921jj";
+    private final String SENHA = "";
 
 public boolean getConnection() {
         
